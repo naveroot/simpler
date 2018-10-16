@@ -46,3 +46,39 @@ Handler: TestsController#show
 Parameters: 
 Response: 200 [text/plain] 
 
+I, [2018-10-16T19:38:27.680904 #7255]  INFO -- : 
+Request: GET http://localhost:9292/time?format=
+Handler: NilClass#
+Parameters: 
+Response: 404 [text/plain] 
+
+I, [2018-10-16T19:38:27.951623 #7255]  INFO -- : 
+Request: GET http://localhost:9292/favicon.ico
+Handler: NilClass#
+Parameters: 
+Response: 404 [text/plain] 
+
+I, [2018-10-16T19:38:27.997401 #7255]  INFO -- : 
+Request: GET http://localhost:9292/favicon.ico
+Handler: NilClass#
+Parameters: 
+Response: 404 [text/plain] 
+
+I, [2018-10-16T19:38:35.271782 #7255]  INFO -- : 
+Request: GET http://localhost:9292/tests
+Handler: TestsController#index
+Parameters: 
+Response: 200 [text/plain] 
+
+I, [2018-10-16T19:40:25.062900 #7634]  INFO -- : 
+Request: GET http://localhost:9292/tests
+Handler: TestsController#index
+Parameters: {}
+Response: 200 [text/plain] 
+
+I, [2018-10-16T19:40:32.265371 #7634]  INFO -- : 
+Request: GET http://localhost:9292/tests/34
+Handler: TestsController#show
+Parameters: {:id=>34}
+Response: 200 [text/plain] 
+

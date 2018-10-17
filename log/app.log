@@ -1,84 +1,114 @@
-I, [2018-10-16T16:43:27.386401 #27537]  INFO -- : 
+I, [2018-10-17T15:22:18.986456 #21652]  INFO -- : 
 Request: GET /tests
-Handler: TestsController#index
-Parameters: 
-Response: 200 [text/plain] 
-
-I, [2018-10-16T17:21:36.275533 #12551]  INFO -- : 
-Request: GET /test/2
-Handler: NilClass#
-Parameters: 
-Response: 404 [text/plain] 
-
-I, [2018-10-16T17:23:14.209009 #12551]  INFO -- : 
-Request: GET /test/2
-Handler: NilClass#
-Parameters: 
-Response: 404 [text/plain] 
-
-I, [2018-10-16T17:23:17.391006 #12551]  INFO -- : 
-Request: GET /test/234
-Handler: NilClass#
-Parameters: 
-Response: 404 [text/plain] 
-
-I, [2018-10-16T17:30:02.337205 #17971]  INFO -- : 
-Request: GET /tests/234?4545=f
-Handler: TestsController#show
-Parameters: 
-Response: 200 [text/plain] 
-
-I, [2018-10-16T17:30:09.359064 #17971]  INFO -- : 
-Request: GET /tests/234
-Handler: TestsController#show
-Parameters: 
-Response: 200 [text/plain] 
-
-I, [2018-10-16T17:30:35.375215 #17971]  INFO -- : 
-Request: GET /tests/234
-Handler: TestsController#show
-Parameters: 
-Response: 200 [text/plain] 
-
-I, [2018-10-16T17:30:52.091269 #17971]  INFO -- : 
-Request: GET /tests/234?test=test
-Handler: TestsController#show
-Parameters: 
-Response: 200 [text/plain] 
-
-I, [2018-10-16T19:38:27.680904 #7255]  INFO -- : 
-Request: GET http://localhost:9292/time?format=
-Handler: NilClass#
-Parameters: 
-Response: 404 [text/plain] 
-
-I, [2018-10-16T19:38:27.951623 #7255]  INFO -- : 
-Request: GET http://localhost:9292/favicon.ico
-Handler: NilClass#
-Parameters: 
-Response: 404 [text/plain] 
-
-I, [2018-10-16T19:38:27.997401 #7255]  INFO -- : 
-Request: GET http://localhost:9292/favicon.ico
-Handler: NilClass#
-Parameters: 
-Response: 404 [text/plain] 
-
-I, [2018-10-16T19:38:35.271782 #7255]  INFO -- : 
-Request: GET http://localhost:9292/tests
-Handler: TestsController#index
-Parameters: 
-Response: 200 [text/plain] 
-
-I, [2018-10-16T19:40:25.062900 #7634]  INFO -- : 
-Request: GET http://localhost:9292/tests
 Handler: TestsController#index
 Parameters: {}
 Response: 200 [text/plain] 
 
-I, [2018-10-16T19:40:32.265371 #7634]  INFO -- : 
-Request: GET http://localhost:9292/tests/34
+I, [2018-10-17T15:37:46.446974 #26684]  INFO -- : 
+Request: GET /tests
+Handler: TestsController#index
+Parameters: {}
+Response: 200 [text/plain] 
+
+I, [2018-10-17T15:37:58.212684 #26684]  INFO -- : 
+Request: GET /test/12
+Handler: NilClass#
+Parameters: {}
+Response: 404 [text/plain] 
+
+I, [2018-10-17T15:38:02.788753 #26684]  INFO -- : 
+Request: GET /tests/12
 Handler: TestsController#show
-Parameters: {:id=>34}
+Parameters: {:id=>12}
+Response: 200 [text/plain] 
+
+I, [2018-10-17T15:38:34.773049 #27626]  INFO -- : 
+Request: GET /tests/12
+Handler: TestsController#show
+Parameters: {:id=>12}
+Response: 200 [text/plain] 
+
+I, [2018-10-17T15:38:39.478338 #27626]  INFO -- : 
+Request: GET /tests
+Handler: TestsController#index
+Parameters: {}
+Response: 200 [text/plain] 
+
+I, [2018-10-17T15:38:44.090091 #27626]  INFO -- : 
+Request: GET /test
+Handler: NilClass#
+Parameters: {}
+Response: 404 [text/plain] 
+
+I, [2018-10-17T15:39:23.075103 #27626]  INFO -- : 
+Request: GET /telol
+Handler: NilClass#
+Parameters: {}
+Response: 404 [text/plain] 
+
+I, [2018-10-17T15:47:05.660835 #4553]  INFO -- : 
+Request: GET /
+Handler: NilClass#
+Parameters: {}
+Response: 404 [text/plain] 
+
+I, [2018-10-17T15:47:14.252330 #4553]  INFO -- : 
+Request: GET /tests
+Handler: NilClass#
+Parameters: {}
+Response: 404 [text/plain] 
+
+I, [2018-10-17T15:47:17.803066 #4553]  INFO -- : 
+Request: GET /tests/
+Handler: NilClass#
+Parameters: {}
+Response: 404 [text/plain] 
+
+I, [2018-10-17T15:47:41.057420 #5641]  INFO -- : 
+Request: GET /tests/
+Handler: NilClass#
+Parameters: {}
+Response: 404 [text/plain] 
+
+I, [2018-10-17T15:47:42.788142 #5641]  INFO -- : 
+Request: GET /tests/
+Handler: NilClass#
+Parameters: {}
+Response: 404 [text/plain] 
+
+I, [2018-10-17T15:47:46.396173 #5641]  INFO -- : 
+Request: GET /tests/2132
+Handler: NilClass#
+Parameters: {}
+Response: 404 [text/plain] 
+
+I, [2018-10-17T15:48:09.117466 #6727]  INFO -- : 
+Request: GET /tests/2132
+Handler: TestsController#show
+Parameters: {:id=>2132}
+Response: 200 [text/plain] 
+
+I, [2018-10-17T15:50:30.149232 #9338]  INFO -- : 
+Request: GET /tests/2132
+Handler: TestsController#show
+Parameters: {:id=>2132}
+Response: 200 [text/plain] 
+
+I, [2018-10-17T15:53:33.529353 #9338]  INFO -- : 
+Request: GET /tests/2132
+Handler: TestsController#show
+Parameters: {:id=>2132}
+Response: 200 [text/plain] 
+
+I, [2018-10-17T15:54:42.647898 #9338]  INFO -- : 
+Request: GET /tests/2132/tt
+Handler: NilClass#
+Parameters: {}
+Response: 404 [text/plain] 
+
+I, [2018-10-17T15:54:49.798093 #9338]  INFO -- : 
+Request: GET /tests/2132
+Handler: TestsController#show
+Parameters: {:id=>2132}
 Response: 200 [text/plain] 
 

@@ -20,7 +20,7 @@ module Simpler
       path = env['PATH_INFO']
       params = env['simpler.params'] ||= {}
 
-      @routes.find { |route| route.match?(method, path,params) }
+      @routes.find { |route| route.match?(method, path, params) }
     end
 
     private

@@ -2,7 +2,7 @@ require 'logger'
 
 class SimplerLogger
   def initialize(app, **options)
-    @logger = Logger.new(Simpler.root.join(options[:logdev] || STDOUT))
+    @logger = Logger.new(Simpler.root.join(options[:logdev] || 'log/app.log'))
     @app = app
   end
 
